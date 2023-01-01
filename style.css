@@ -1,0 +1,72 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+    min-height: 50vh;
+}
+
+.s1 {
+    background-color: aqua;
+    height: 120vh;
+}
+
+.s2 {
+    background-color: hotpink;
+    height: 80vh;
+}
+
+.s3 {
+    background-color: yellowgreen;
+}
+
+.s4 {
+    background-color: saddlebrown;
+    height: 140vh;
+}
+
+nav {
+    position: fixed;
+    top: 30%;
+    bottom: 30%;
+    left: 0;
+    width: 60px;
+    background-color: grey;
+}
+
+nav ul {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.dot1 {
+    background-color: aqua;
+}
+
+.dot2 {
+    background-color: hotpink;
+}
+
+.dot3 {
+    background-color: yellowgreen;
+}
+
+.dot4 {
+    background-color: saddlebrown;
+}
