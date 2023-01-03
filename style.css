@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
-    font-size: 10px;
 }
 
 section {
@@ -37,7 +36,6 @@ nav {
     bottom: 30%;
     left: 0;
     width: 60px;
-    background-color: grey;
 }
 
 nav ul {
@@ -70,4 +68,8 @@ nav li {
 
 .dot4 {
     background-color: saddlebrown;
+}
+
+.active {
+    box-shadow: 0 0 0 3px white, 0 0 0 6px red;
 }
